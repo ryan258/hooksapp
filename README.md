@@ -20,3 +20,11 @@ When using uuid for keys you'll want to do it like this:
 - give it the initical state
 - set up a function to manipulate the old state and completely replace it with a new state
 - use that function in a handler
+
+### useState() with forms
+
+onChange={(e)=> setTitle(e.target.value)}
+
+- e - the onChange event that occurred
+- target - targets the element that changed
+- value is the value of target object where the event occurred
