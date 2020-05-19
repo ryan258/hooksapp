@@ -1,5 +1,7 @@
 [Repo for hooksapp](https://github.com/ryan258/hooksapp)
 
+# Lessons 9 - 12
+
 - use the uuid package to give new items a new unique id
 
 ## useState() Hook
@@ -40,3 +42,5 @@ So we can use this to connect with a database or API end point.
 Basically if some data in the component is changing, the component will rerender triggering useEffect().
 
 The second arg in useEffect is limiting to what you want to watch for changes. Like useEffect will trigger only when songs data is updated.
+
+Back to [contextapp](https://github.com/ryan258/hooksapp)
